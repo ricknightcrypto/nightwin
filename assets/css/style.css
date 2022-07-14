@@ -508,3 +508,18 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.columns-2 {
+  -moz-columns: 2;
+       columns: 2;
+}
+
+.break-after-column {
+  -moz-column-break-after: column;
+       break-after: column;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
