@@ -509,29 +509,13 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.grid {
-  display: grid;
-}
-
-.columns-2 {
-  -moz-columns: 2;
-       columns: 2;
-}
-
-.break-after-column {
-  -moz-column-break-after: column;
-       break-after: column;
-}
-
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
-.gap-4 {
-  gap: 1rem;
-}
-
 body {
     background-color: black;
     color: white;
+    font-family: 'Architekt', sans-serif
+}
+
+@font-face {
+    font-family: 'Architekt';
+	src: url("/assets/fonts/NBR.otf");
 }

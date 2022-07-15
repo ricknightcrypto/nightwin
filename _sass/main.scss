@@ -4,9 +4,13 @@
 
 @import "tailwindcss/utilities";
 
-
-
 body {
     background-color: black;
     color: white;
+    font-family: 'Architekt', sans-serif
+}
+
+@font-face {
+    font-family: 'Architekt';
+	src: url("/assets/fonts/NBR.otf");
 }
