@@ -512,24 +512,59 @@ video {
 body {
     background-color: black;
     color: white;
-    font-family: 'Architekt', sans-serif
+    font-family: 'Architekt', sans-serif;
 }
 
 .nav {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1%;
+    padding-bottom: 1%;
     -moz-column-gap: 15%;
          column-gap: 15%;
+    border-bottom: 1px solid white
+}
+
+.img {
+    max-width: 70px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
 }
 
 .menu {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
 
 }
 
 .actions {
     display: flex;
+}
+
+.dim {
+    color: #888888;
+}
+
+button {
+    padding: 5px 15px 5px 15px;
+    webkit-clip-path: polygon(8.45% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 29.62%);
+    -webkit-clip-path: polygon(8.45% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 29.62%);
+            clip-path: polygon(8.45% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 29.62%);
+}
+
+.trade {
+    color: black;
+    background-color: white;
+}
+
+.mint {
+    color: white;
+    background-color: black;
 }
 
 @font-face {
