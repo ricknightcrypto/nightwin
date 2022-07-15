@@ -10,6 +10,22 @@ body {
     font-family: 'Architekt', sans-serif
 }
 
+.nav {
+    display: flex;
+    justify-content: center;
+    column-gap: 15%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.actions {
+    display: flex;
+}
+
 @font-face {
     font-family: 'Architekt';
 	src: url("/assets/fonts/NBR.otf");
