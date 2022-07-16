@@ -66,6 +66,27 @@ button {
     background-color: black;
 }
 
+.section1 {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 8%;
+}
+
+.section1__title {
+    font-size: 30px;
+}
+
+.section1__text {
+    color: #888
+}
+
+.trade-panel {
+    object-fit: contain;
+}
+
+
+
+
 @font-face {
     font-family: 'Architekt';
 	src: url("/assets/fonts/NBR.otf");
