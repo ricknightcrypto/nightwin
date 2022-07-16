@@ -69,23 +69,28 @@ button {
 .section1 {
     display: flex;
     margin-top: 10%;
-    margin-left: 8%;
+    margin-left: 10%;
 }
 
 .section1__title {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .section1__text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
     color: #888
 }
 
-.trade-panel {
-    object-fit: contain;
+.section1__100x {
+    color:white
 }
 
-
-
+.section1__trade-panel {
+    padding-left: 50px;
+    object-fit: contain;
+}
 
 @font-face {
     font-family: 'Architekt';
