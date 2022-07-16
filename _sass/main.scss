@@ -64,3 +64,13 @@ button {
     font-family: 'Architekt';
 	src: url("/assets/fonts/NBR.otf");
 }
+
+@media (max-width: 800px) {
+    .nav, .menu, .logo {
+      flex-direction: column;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+  }
