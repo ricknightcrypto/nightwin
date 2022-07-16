@@ -8,6 +8,12 @@ body {
     background-color: black;
     color: white;
     font-family: 'Architekt', sans-serif;
+
+    background: black;
+    background-image:
+        linear-gradient(rgba(17, 17, 17, 0.705) .1em, transparent .1em),
+        linear-gradient(90deg, rgba(17, 17, 17, 0.705) .1em, transparent .1em);
+    background-size: 9em 9em;
 }
 
 .nav {
@@ -71,6 +77,6 @@ button {
     }
 
     .logo {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
   }
