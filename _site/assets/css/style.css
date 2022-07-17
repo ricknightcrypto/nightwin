@@ -644,6 +644,7 @@ button {
 @font-face {
     font-family: 'Architekt';
     src: url("/assets/fonts/NBR.otf");
+    font-display: swap;
 }
 
 @media (max-width: 800px) {
