@@ -610,7 +610,7 @@ button {
 
 @font-face {
     font-family: 'Architekt';
-	src: url("nightwin/assets/fonts/NBR.otf");
+	src: url("/fonts/NBR.otf");
 }
 
 @media (max-width: 800px) {
