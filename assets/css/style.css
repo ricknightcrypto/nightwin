@@ -579,19 +579,28 @@ button {
     margin-bottom: 10%
 }
 
+.section__title {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.section__text {
+    color: #888;
+    font-size: 20px;
+    margin-bottom: 3%;
+}
+
+.section3__content {
+    margin-right: 25%;
+}
+
 .section3__image {
     margin-top: -10%;
+    margin-left: -40%;
 }
 
 .section1__title {
     font-size: 35px;
-}
-
-.section1__text {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 21px;
-    color: #888
 }
 
 .white_text {
@@ -611,19 +620,8 @@ button {
        object-fit: contain;
 }
 
-.section__title {
-    font-size: 35px;
-    margin-bottom: 10px;
-}
-
 .section2__currencies {
     margin-right: 10%;
-}
-
-.section__text {
-    color: #888;
-    font-size: 20px;
-    margin-bottom: 3%;
 }
 
 @font-face {
