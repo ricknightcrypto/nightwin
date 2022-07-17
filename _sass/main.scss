@@ -51,14 +51,14 @@ body {
 }
 
 button {
+    color: black;
+    background-color: white;
     padding: 5px 15px 5px 15px;
-    webkit-clip-path: polygon(8.45% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 29.62%);
-    clip-path: polygon(8.45% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 29.62%);
 }
 
 .trade {
-    color: black;
-    background-color: white;
+    webkit-clip-path: polygon(8.45% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 29.62%);
+    clip-path: polygon(8.45% 0px, 100% 0px, 100% 100%, 0px 100%, 0px 29.62%);
 }
 
 .mint {
@@ -87,6 +87,13 @@ button {
     color:white
 }
 
+.section1__trade {
+    padding: 10px 35px 10px 35px;
+    margin-top: 20px;
+    webkit-clip-path: polygon(91.52% 0px, 99.99% 12px, 100% 100%, 0px 100%, 0px 0.2%);
+    clip-path: polygon(91.52% 0px, 99.99% 12px, 100% 100%, 0px 100%, 0px 0.2%);
+}
+
 .section1__trade-panel {
     padding-left: 50px;
     object-fit: contain;
@@ -104,5 +111,9 @@ button {
 
     .logo {
         margin-bottom: 20px;
+    }
+
+    .section1__trade-panel {
+        display: none;
     }
   }
