@@ -572,10 +572,18 @@ button {
     background-color: black;
 }
 
-.section1 {
+.section {
     display: flex;
     margin-top: 10%;
     margin-left: 10%;
+}
+
+.section3__content {
+    margin-right: 10%;
+}
+
+.section3__image {
+    margin-top: -10%;
 }
 
 .section1__title {
@@ -589,7 +597,7 @@ button {
     color: #888
 }
 
-.section1__100x {
+.white_text {
     color:white;
 }
 
@@ -617,7 +625,7 @@ button {
 
 .section__text {
     color: #888;
-    font-size: 19px;
+    font-size: 20px;
     margin-bottom: 3%;
 }
 
