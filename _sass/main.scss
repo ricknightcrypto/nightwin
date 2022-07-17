@@ -110,12 +110,18 @@ button {
     object-fit: contain;
 }
 
-
-
-.section2__currencies {
+.section2__image {
     margin-right: 10%;
 }
 
+.section4__night {
+    margin-right: 18%;
+    text-align: center;
+}
+
+.section4__image {
+    margin-top: -10%;
+}
 
 @font-face {
     font-family: 'Architekt';
@@ -131,7 +137,11 @@ button {
         margin-bottom: 20px;
     }
 
-    .section1__trade-panel, .section2__currencies, .section3__image {
+    .section1__trade-panel,
+    .section2__image,
+    .section3__image,
+    .section4__night
+    {
         display: none;
     }
 }
