@@ -658,7 +658,16 @@ button {
         margin-bottom: 20px;
     }
 
-    .section1__image,
+    .section3__content {
+        margin-right: 0%;
+    }
+
+    .section5 {
+        margin-right: 0%;
+    }
+
+    .section1__image-container,
+    .section5__image-container,
     .section2__image,
     .section3__image,
     .section4__night
