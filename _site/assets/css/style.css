@@ -616,7 +616,9 @@ button {
 }
 
 .trade__button {
-    padding: 10px 35px 10px 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
     webkit-clip-path: polygon(91.52% 0px, 99.99% 12px, 100% 100%, 0px 100%, 0px 0.2%);
     -webkit-clip-path: polygon(91.52% 0px, 99.99% 12px, 100% 100%, 0px 100%, 0px 0.2%);
             clip-path: polygon(91.52% 0px, 99.99% 12px, 100% 100%, 0px 100%, 0px 0.2%);
@@ -624,6 +626,7 @@ button {
 
 .section2__image {
     margin-right: 10%;
+    margin-top: 25px;
 }
 
 .section4__night {
